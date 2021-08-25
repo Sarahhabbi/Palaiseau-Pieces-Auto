@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800&display=swap&family=The+Girl+Next+Door&display=swap&family=Nothing+You+Could+Do&display=swap&family=Poppins:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Nous contacter</title>
+</head>
+<body>
+
+    <header>
+        <!-- Logo -->
+        <a href="index.html"><img src="logo-noir.png" class="logo"></a>
+        <!-- Barre de navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+            </ul>
+            <button><i class="bi bi-envelope"></i><a href="contact.html">Nous contacter</a></button>
+        </nav>
+    </header>
+    <main class="main-contact">
+
+        <div class="contact-title">
+            <h2>Un devis, un conseil? Contactez nous! </h2>
+            <h4>Notre équipe vous répondra sous 24h.</h4>
+        </div>
+
+
+         <!-- Part1 Formulaire de contact-->
+         <section class="contact-container">
+
+            <!-- FORMULAIRE -->
+            <div class="form" action="https://formsubmit.co/habbisarah.1@gmail.com" method="POST">
+                    <label for="nom">Nom</label></br>
+                    <input type="text" name="nom" id="nom" class="form-input" placeholder="Votre nom" required>
+                
+                    <label for="plaque">Plaque d'immatriculation</label></br>
+                    <input type="text" name="plaque" id="plaque" class="form-input" placeholder="Votre plaque d'immatriculation" required>
+                
+                    <label for="mail">Adresse mail</label></br>
+                    <input type="email" name="mail" id="mail" class="form-input" placeholder="Votre adresse mail" required>
+                
+                    <label for="message">Message</label></br>
+                    <textarea type="textarea" name="message" id="message" class="form-input" placeholder="Entrez votre demande" required></textarea>
+                
+                <button type="submit" name="envoyer" id="envoyer">Envoyer</button>
+            </div>
+
+            <!-- INFORMATIONS GENERALES -->
+
+            <div class="infos-container">
+                <h4>Informations</h4>
+                <div class="infos">
+                    <div class="icons">
+                        <i class="bi bi-telephone-fill"></i> 
+                        <span>09 82 37 14 24</span></br>
+                    </div>
+                    <div class="icons">
+                        <i class="bi bi-geo-alt-fill"></i> 
+                        <span>5 Avenue du Général de Gaulle, 91120 Palaiseau</span></br>
+                    </div>
+                    <div class="icons">
+                        <i class="bi bi-calendar-day-fill"></i> 
+                        <span>Lun-Ven:</br>08h30 – 12h00</br>14h00 – 17h30</br>Fermé samedi et dimanche</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10530.057393971721!2d2.2487239!3d48.7147628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc70d95a4c3e580b!2sPalaiseau%20Pi%C3%A8ces%20Auto!5e0!3m2!1sfr!2sfr!4v1629898343744!5m2!1sfr!2sfr" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </main>
+        
+    <footer>
+        <!-- Logo -->
+        <div class="footer-logo">
+            <img src="logo-blanc.png">
+        </div>
+        <!-- Coordonées -->
+        <div class="coordonnees">
+            <h4>Nos coordonnées:</h4>
+            <ul>
+                <i class="bi bi-geo-alt"></i><li>5 Avenue du Général de Gaulle,91120 Palaiseau</li></br>
+                <i class="bi bi-telephone-fill"></i><li>09 82 37 14 24</li>
+            </ul>
+        </div>
+        <!-- Menu footer -->
+        <div class="menu-footer">
+            <ol>
+                <li><a href="index.html">Accueil</a></li>
+            </ol>
+            <button><i class="bi bi-envelope"></i><a href="contact.html">Nous contacter</a></button>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="app.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0UsjghnJlmEr9wQbKJAHlb5Yxzo1kKts&callback=initMap">
+    </script>
+</body>
+</html>
