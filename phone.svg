@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="phone.svg">
+   sodipodi:docname="phone.svg"
+   inkscape:export-filename="/Users/habbi/Documents/STAGE-PPA/phone.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -23,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.19992034"
-     inkscape:cx="87.017004"
-     inkscape:cy="428.83986"
+     inkscape:zoom="0.23911323"
+     inkscape:cx="240.15737"
+     inkscape:cy="1002.2641"
      inkscape:document-units="mm"
      inkscape:current-layer="g942"
      inkscape:document-rotation="0"
@@ -43,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -7,40 +7,46 @@
       name="viewport"
       content="width=device-width, initial-scale=1,maximum-scale=5"/>    
     <link rel="stylesheet" href="style.css">
-
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;800&display=swap&family=The+Girl+Next+Door&display=swap&family=Nothing+You+Could+Do&display=swap"&family=Poppins:ital,wght@1,400;1,700&display=swap"" rel="stylesheet">
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
     <!-- GOOGLE REVIEWS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAgYd0A4Zqr2pkPPjbMzlLHBl8wLqe2q_Q&signed_in=true&libraries=places"></script>
-
-    <title>Palaiseau Pièce Auto</title>
+    <title>Palaiseau Pièce Auto - Fournisseur de pièces automobiles détachées.</title>
 </head>
 
 <body>
-    <div class="header-container">
-        <header>
-            <!-- Logo -->
-            <a href="index.html"><img src="logo-noir.png" class="logo"></a>
-            <!-- Barre de navigation -->
-            <nav>
+    <header>
+        <i class="bi bi-list"></i>
+        <!-- Logo -->
+        <div><a href="index.html"><img src="logo-noir.png" class="logo"></a></div>
+        <!-- Barre de navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+            </ul>
+            <button><i class="bi bi-envelope"></i><a href="contact.html">Nous contacter</a></button>
+             <!-- Coordonées -->
+            <div class="coordonnees-menu">
+                <h4>Nos coordonnées:</h4>
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
+                    <li><i class="bi bi-geo-alt"></i>  5 Avenue du Général de Gaulle,91120 Palaiseau</li></br>
+                    <li><i class="bi bi-telephone-fill"></i>  09 82 37 14 24</li>
                 </ul>
-                <button><i class="bi bi-envelope"></i><a href="contact.html">Nous contacter</a></button>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
     
+    <main>
         <!-- Part1 Présentation-->
         <section class="first-section">
             <!-- TEXTE -->
             <div class="devis">
                 <h4>Votre Devis <span class="orange">par SMS </span>en quelque minutes!</h4>
-                <p>Indiquez nous la pièce recherchée et le véhicule pour obtenir rapidement votre devis.</p>
+                <p>Indiquez nous la <b>pièce recherchée et le véhicule </b>pour obtenir rapidement votre devis.</p>
                 <span class="retrait">
                     <h4><i class="bi bi-clock-history"></i>Retrait  <span class="orange">immédiat</span> ou <span class="orange">sous 2h</span>  en boutique!</h4>
                 </span>
@@ -48,14 +54,12 @@
 
             <!-- SMARTPHONE -->
             <div class="phone">
-                <!-- <div class="img-phone"><img src="phone.svg"></div> -->
-                <object data="phone.svg" class="img-phone" type="image/svg+xml"></object>
+                <div>
+                    <img src="phone.png" class="img-phone">
+                </div>
                 <button><a href="sms:'+33601639959'">Envoyer un SMS</a  <i class="bi bi-chat-dots"></i></button>         
             </div>
         </section>
-    </div>
-    
-    <main>
         <!-- Part2 LES AVIS CLIENTS -->
         <section class="review-section">
             <h2>Ce que disent nos clients</h2>
@@ -66,19 +70,27 @@
                 <div><i class="bi bi-currency-euro"></i><span>Prix imbattables</span></div>
                 <div><i class="bi bi-hand-thumbs-up-fill"></i><span>Conseils de qualité</span></div>
             </div>
-            <button><a href="#">Plus d'avis<i class="bi bi-caret-right"></i></a></button>
         </section>
 
         <!-- Part3 LES MARQUES PARTENAIRES -->
         <section class="partenaires">
             <h2>Nos partenaires</h2>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
+            <ul class="brand-container">
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png" alt="https://img2.freepng.fr/20180811/ue/kisspng-logo-emblem-robert-bosch-gmbh-brand-trademark-222pro-elektronik-5b6f5733abe0a4.913157591534023475704.jpg">
+                </li> 
+                <li>    
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/b/bc/Logo-valeo.gif" alt="https://chairec3s.wp.imt.fr/files/2020/02/valeo-logo-rvb-signat.png">
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/LuK_logo.svg/langfr-280px-LuK_logo.svg.png" alt="https://www.ad-neoparts.com/public/img/big/Catalogue4e365f14489a1.jpg">
+                </li>
+                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Bosch_logo.png" alt="https://img2.freepng.fr/20180811/ue/kisspng-logo-emblem-robert-bosch-gmbh-brand-trademark-222pro-elektronik-5b6f5733abe0a4.913157591534023475704.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/fr/b/bc/Logo-valeo.gif" alt="https://chairec3s.wp.imt.fr/files/2020/02/valeo-logo-rvb-signat.png">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/LuK_logo.svg/langfr-280px-LuK_logo.svg.png" alt="https://www.ad-neoparts.com/public/img/big/Catalogue4e365f14489a1.jpg"> -->
+                <!-- <img src="" alt="">
+                <img src="" alt=""> -->
+            </ul>
             <h4 class="choice">Un large choix de pièces pour toutes les marques de véhicules!</h4>
         </section>
 
@@ -102,8 +114,8 @@
         <div class="coordonnees">
             <h4>Nos coordonnées:</h4>
             <ul>
-                <i class="bi bi-geo-alt"></i><li>5 Avenue du Général de Gaulle,91120 Palaiseau</li></br>
-                <i class="bi bi-telephone-fill"></i><li>09 82 37 14 24</li>
+                <li><i class="bi bi-geo-alt"></i>  5 Avenue du Général de Gaulle,91120 Palaiseau</li></br>
+                <li><i class="bi bi-telephone-fill"></i>  09 82 37 14 24</li>
             </ul>
         </div>
         <!-- Menu footer -->
@@ -115,7 +127,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="app.js"></script>		
 </body>
 
 </html>
