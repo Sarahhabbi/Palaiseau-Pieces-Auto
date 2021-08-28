@@ -21,7 +21,7 @@ hamburger.addEventListener("click", ()=>{
 })
 
 
-
+// google reviews
 jQuery(document).ready(function( $ ) {
     $("#google-reviews").googlePlaces({
          placeId: 'ChIJww7iohR55kcRC1g-TFrZcPw'
@@ -31,14 +31,6 @@ jQuery(document).ready(function( $ ) {
     });
  });
 
-// SLICK SLIDER
-$(document).ready(function(){
-    $('.google-reviews').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-    });
-});
 
 
 // // GOOGLE MAPS contact.html
