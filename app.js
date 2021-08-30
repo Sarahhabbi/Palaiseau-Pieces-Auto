@@ -21,15 +21,15 @@ hamburger.addEventListener("click", ()=>{
 })
 
 
-// // google reviews
-// jQuery(document).ready(function( $ ) {
-//     $("#google-reviews").googlePlaces({
-//          placeId: 'ChIJww7iohR55kcRC1g-TFrZcPw'
-//        , render: ['reviews']
-//        , min_rating: 4
-//        , max_rows:4
-//     });
-//  });
+// google reviews
+jQuery(document).ready(function( $ ) {
+    $("#google-reviews").googlePlaces({
+         placeId: 'ChIJww7iohR55kcRC1g-TFrZcPw'
+       , render: ['reviews']
+       , min_rating: 4
+       , max_rows:4
+    });
+ });
 
 
 
