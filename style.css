@@ -504,9 +504,8 @@ label{
 .infos{
     display: flex;
     flex-direction: column;
-    /* justify-content: `space-around ; */
     margin-left: 24px;
-    font-size:clamp(1rem, 1.3vw, 1.3rem);
+    font-size: calc(30*var(--res));
 }
 .icons{
     margin-bottom: 20%;
