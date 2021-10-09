@@ -14,7 +14,6 @@ html, body{
 }
 body{
     font-family: 'Maven Pro', sans-serif;
-    overflow-x: hidden;
 }
 p{
     font-size: calc(30*var(--res));
@@ -427,9 +426,7 @@ footer{
     font-style: italic;
     font-weight: 500;
 }
-
 /* container form+informations */
-
 .contact-container{
     all:unset;
     display: grid;
@@ -447,12 +444,6 @@ footer{
 .merci{
     font-size: calc(30*var(--res));
     text-align: center;
-}
-@media screen and (max-width: 600px){
-    /* RESPONSIVE CONTACT PAGE */
-    .main-contact{
-        padding:0 4vw;
-    }
 }
 
 /* le formulaire de contact */
@@ -493,7 +484,6 @@ label{
 }
 
 /* INFORMATIONS */
-
 .infos-container>h4{
     font-size:clamp(1.5rem, 2vw, 2.2rem);
     margin-top: 10px;
@@ -516,7 +506,6 @@ i{
     margin-right: 10px;
     font-size: clamp(1rem, 1.6vw, 3rem);;
 }
-
 /* CARTE */
 iframe{
     width:100%;
@@ -525,27 +514,32 @@ iframe{
     padding: 0;
 }
   /* GOOGLE REVIEWS*/
-
 #map-plug {display:none;}
 #google-reviews {
-    width: 80vw;
+    width: 90vw;
     display: flex;
-    overflow-y: hidden;
     overflow-x: auto;
     margin:0 auto;
-    justify-content: center;
     scrollbar-width: thin;
 }
 .review-item {
     flex-shrink: 0;
-    max-width: 30%;
+    max-width:20vw;
     height: auto;
-    margin: 15px;
-    padding: 15px;
+    margin: 2vw;
+    padding:2vw ;
     border-radius: 20px;
     border: 1px solid #F7F8FA;   
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
     background: #F7F8FA;
+}
+@media screen and (max-width: 600px){
+    #google-reviews {
+        width: 100vw;
+    }
+    .review-item{
+        max-width:100%;
+    }
 }
 
 .review-meta, .review-stars {text-align:center;font-size: clamp(0.8rem, 1.2vw, 1.5rem);}

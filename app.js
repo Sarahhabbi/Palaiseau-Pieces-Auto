@@ -22,7 +22,7 @@ hamburger.addEventListener("click", ()=>{
 
 
 // google reviews
-jQuery(document).ready(function( $ ) {
+jQuery(document).ready(function($) {
     $("#google-reviews").googlePlaces({
          placeId: 'ChIJww7iohR55kcRC1g-TFrZcPw'
        , render: ['reviews']
