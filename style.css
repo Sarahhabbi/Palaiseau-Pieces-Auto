@@ -19,7 +19,6 @@ p{
     font-size: calc(30*var(--res));
     font-weight: 500;
 }
-
 /* HEADER STYLE */
 header{
     width: 100vw;
@@ -127,7 +126,6 @@ button:hover{
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-
     }
     .coordonnees-menu{
         display: flex;
@@ -193,7 +191,7 @@ p{
     margin:0;
 }
 .img-phone{
-    max-width: 15vw;
+    max-width: 30vw;
     height: auto;
 }
 
@@ -208,12 +206,10 @@ p{
         margin: 0 auto;
         padding: 2% 5%;
     }
-
     .img-phone{
-        max-width: 30vw;
+        max-width: 60vw;
     }
 }
-
 /* MAIN PART */
 /* part 2 customer reviews */
 .review-section{
@@ -299,9 +295,7 @@ h2, .merci{
     box-shadow: 3px 3px 5px #5e68795d;
 }
 
-
 /* PART 4 CONTACT PAGE REDIRECTION */
-
 .contact-us{
     font-size: clamp(1rem, 2vw, 1.4rem);
     display: flex;
@@ -309,7 +303,6 @@ h2, .merci{
     justify-content: center;
     flex-wrap: wrap;
     padding: 4% 0;
-
 }
 .contact{
     width: 30vw;
@@ -329,10 +322,9 @@ footer{
     justify-content: space-evenly;
     flex-wrap: wrap;
     background: rgba(0, 0, 0, 0.88);
-    color:white
+    color:#ffffff;
 }
 /* logo footer */
-
 .footer-logo{
     height: auto;
     max-width: 400px;
@@ -342,8 +334,6 @@ footer{
     height: auto;
     max-width: 350px;
 }
-
-
 /* detail orange logo footer */
 .footer-logo:before{
     content:"";
