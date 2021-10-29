@@ -44,43 +44,56 @@
 
          <!-- Part1 Formulaire de contact-->
          <section class="contact-container">
-
-            <!-- FORMULAIRE -->
-            <form action="https://formsubmit.co/palaiseaupieceauto@gmail.com" method="POST">
-                    <label for="nom">Nom</label></br>
-                    <input type="text" name="nom" id="nom" class="form-input" placeholder="Votre nom" required>
-                
-                    <label for="plaque">Plaque d'immatriculation</label></br>
-                    <input type="text" name="plaque" id="plaque" class="form-input" placeholder="Votre plaque d'immatriculation" required>
-                
-                    <label for="mail">Adresse mail</label></br>
-                    <input type="email" name="mail" id="mail" class="form-input" placeholder="Votre adresse mail" required>
-                
-                    <label for="message">Message</label></br>
-                    <textarea type="textarea" name="message" id="message" class="form-input" placeholder="Entrez votre demande" required></textarea>
-                
-                    <button type="submit" name="envoyer" id="envoyer">Envoyer</button>
-                    <!-- <input type="hidden" name="_next" value="https://yourdomain.co/merci.html"> -->
-            </form>
+            <div class="row input-container">
+                <h2>Formulaire de contact</h2>
+                <form action="https://formsubmit.co/palaiseaupieceauto@gmail.com" method="POST">
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <input type="text" required />
+                            <label>Nom</label> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input">
+                            <input type="text" required />
+                            <label>Email</label> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input" style="float:right;">
+                            <input type="text" required />
+                            <label>Plaque d'immatriculation</label> 
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <textarea required></textarea>
+                            <label>Ecrivez votre message ici</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="btn-lrg submit-btn">Send Message</div>
+                    </div>
+                    <!-- <input type="hidden" name="_next" value="https://yourdomain.co/merci.html">  -->
+                </form>
+            </div>
 
             <!-- INFORMATIONS GENERALES -->
-
             <div class="infos-container">
-                <h4>Informations</h4>
-                <div class="infos">
-                    <div class="icons">
+                <ul>
+                    <li>
                         <i class="bi bi-telephone-fill"></i> 
-                        <span>09 82 37 14 24</span></br>
-                    </div>
-                    <div class="icons">
+                        <span>09 82 37 14 24</span></br></br>
+                    </li>
+                    <li>
                         <i class="bi bi-geo-alt-fill"></i> 
-                        <span>5 Avenue du Général de Gaulle, 91120 Palaiseau</span></br>
-                    </div>
-                    <div class="icons">
+                        <span>5 Avenue du Général de Gaulle, 91120 Palaiseau</span></br></br>
+                    </li>
+                    <li>
                         <i class="bi bi-calendar-day-fill"></i> 
                         <span><b>Du Lundi au Vendredi</b>: </br>08h30 - 12h00</br> 14h00 – 17h30</br><b>Samedi:</b> 8h30 - 12h30
-                    </div>
-                </div>
+                    </li>                
+                </ul>
             </div>
             
         </section>
@@ -95,7 +108,7 @@
         </div>
         <!-- Coordonées -->
         <div class="coordonnees">
-            <h4>Nos coordonnées:</h4>
+            <h3>Nos coordonnées:</h3>
             <ul>
                 <i class="bi bi-geo-alt"></i><li>5 Avenue du Général de Gaulle,91120 Palaiseau</li></br>
                 <i class="bi bi-telephone-fill"></i><li>09 82 37 14 24</li>
