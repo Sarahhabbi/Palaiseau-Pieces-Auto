@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
          placeId: 'ChIJww7iohR55kcRC1g-TFrZcPw'
        , render: ['reviews']
        , min_rating: 4
-       , max_rows:4
+       , max_rows:100
     });
  });
 
