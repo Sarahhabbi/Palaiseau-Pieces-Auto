@@ -319,13 +319,12 @@ footer{
     overflow: hidden;
     display: flex;
     padding: 3%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0.88);
-    color:#ffffff;
+    background:#F5F8FA;
 }
 .footer-logo{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 .coordonnees{
